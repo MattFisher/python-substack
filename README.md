@@ -147,6 +147,7 @@ embedded = api.publication_embed("https://jackio.substack.com/")
 post.add({"type": "embeddedPublication", "url": embedded})
 
 # create post from Markdown
+# See docs/markdown.md for the full list of supported Markdown features.
 markdown_content = """
 # My Heading
 
